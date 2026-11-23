@@ -1,0 +1,90 @@
+{
+  "$description": "Campaign Identity starter tokens following W3C DTCG 2025.10 format",
+  "primitive": {
+    "color": {
+      "$type": "color",
+      "ink-950": { "$value": "#0E0E10" },
+      "ink-900": { "$value": "#18181C" },
+      "paper-50": { "$value": "#F5F5F7" },
+      "muted-400": { "$value": "#9A9AA3" },
+      "accent-primary": { "$value": "#C8FF00" }
+    },
+    "geometry": {
+      "$type": "dimension",
+      "radius-lettering": {
+        "$value": { "value": 6, "unit": "px" },
+        "$description": "Base corner radius derived from custom lettering geometry"
+      },
+      "radius-card": {
+        "$value": { "value": 12, "unit": "px" }
+      },
+      "stroke-ornament": {
+        "$value": { "value": 1, "unit": "px" },
+        "$description": "Standard stroke width for decorative linear ornaments"
+      },
+      "space-unit": {
+        "$value": { "value": 8, "unit": "px" }
+      }
+    },
+    "cmf": {
+      "$type": "number",
+      "texture-grain-opacity": {
+        "$value": 0.06,
+        "$description": "Safe digital grain overlay opacity preventing compression artifacts"
+      }
+    },
+    "motion": {
+      "duration-ui": {
+        "$type": "duration",
+        "$value": { "value": 180, "unit": "ms" }
+      },
+      "duration-reveal": {
+        "$type": "duration",
+        "$value": { "value": 640, "unit": "ms" }
+      },
+      "easing-standard": {
+        "$type": "cubicBezier",
+        "$value": [0.22, 1, 0.36, 1],
+        "$description": "Primary damped ease-out curve aligned with audiovisual tempo"
+      }
+    }
+  },
+  "semantic": {
+    "surface": {
+      "$type": "color",
+      "page": {
+        "$value": "{primitive.color.ink-950}",
+        "$description": "Primary dark canvas background"
+      },
+      "card": {
+        "$value": "{primitive.color.ink-900}"
+      }
+    },
+    "text": {
+      "$type": "color",
+      "primary": { "$value": "{primitive.color.paper-50}" },
+      "secondary": { "$value": "{primitive.color.muted-400}" }
+    },
+    "cta": {
+      "background": {
+        "$type": "color",
+        "$value": "{primitive.color.accent-primary}"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{primitive.geometry.radius-lettering}",
+        "$description": "UI button corner radius inherits custom lettering corner geometry"
+      }
+    },
+    "card": {
+      "radius": {
+        "$type": "dimension",
+        "$value": "{primitive.geometry.radius-card}"
+      },
+      "border-width": {
+        "$type": "dimension",
+        "$value": "{primitive.geometry.stroke-ornament}"
+      }
+    }
+  }
+}
