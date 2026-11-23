@@ -29,7 +29,9 @@ Built for modern campaigns where the hero medium (3D, product, photography, or i
 
 - [`SKILL.md`](./SKILL.md) — Core agent skill instructions and checklist
 - [`references/collaboration-ops.md`](./references/collaboration-ops.md) — Multi-designer, video, spatial, and frontend collaboration playbook
+- [`references/figma-canvas-organization.md`](./references/figma-canvas-organization.md) — Figma horizontal swimlane canvas architecture (`Left Drafts → Center Locked 1–5 → Right Applications`)
 - [`references/token-spec-dtcg.md`](./references/token-spec-dtcg.md) — W3C DTCG `2025.10` token authoring guide
+- [`references/theory-and-references.md`](./references/theory-and-references.md) — Design theory foundations, terminology boundaries, and English studio/enterprise benchmarks
 - [`templates/tokens.template.json`](./templates/tokens.template.json) — Ready-to-use W3C DTCG `2025.10` starter tokens
 
 ## Installation

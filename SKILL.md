@@ -98,8 +98,10 @@ Apply **3 Visual Density Tiers** across all touchpoints so elements never fight 
   - **i. `SKILL.md`**: Qualitative rules, density tiers, platform constraints, and anti-slop guardrails.
   - **ii. `tokens.json`**: Quantitative parameters in **W3C DTCG `2025.10`** format (`$value`, `$type`, `$description`, `{alias}`) + compiled `tokens.css`. See [references/token-spec-dtcg.md](./references/token-spec-dtcg.md) and [templates/tokens.template.json](./templates/tokens.template.json).
 - **b. Design Kit** (for human collaborators):
-  - **i. Figma**: Locked `00_Master_Library` (Variables + Logo/Lettering/Ornament components) + template files for UI, social, and print layouts.
+  - **i. Figma**: Locked `00_Master_Library` (Variables + Logo/Lettering/Ornament components) + horizontal swimlane exploration board (`Left Drafts → Center Locked 1–5 → Right Applications`). See [references/figma-canvas-organization.md](./references/figma-canvas-organization.md).
   - **ii. Shared Asset Directory**: Role-specific handoff kits (`Motion_Starter_Kit` with audio stems, `Spatial_&_Print_Kit` with lightweight 3D FBX/GLB models & CMYK/Pantone specs). See [references/collaboration-ops.md](./references/collaboration-ops.md).
+
+For canonical design theory, terminology boundaries (`Scale` vs. `Size`, `Lettering` vs. `Typography`), and English industry benchmarks, see [references/theory-and-references.md](./references/theory-and-references.md).
 
 ---
 
